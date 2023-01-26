@@ -25,6 +25,7 @@ img {
 
 body{
     font-family: 'Public Sans', sans-serif;
+    /* @apply lg:overflow-hidden; */
     
 }
 

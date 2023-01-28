@@ -686,14 +686,19 @@ video {
   padding: 2rem;
 }
 
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .py-10{
@@ -709,16 +714,6 @@ video {
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-64{
-  padding-left: 16rem;
-  padding-right: 16rem;
-}
-
-.px-4{
-  padding-left: 1rem;
-  padding-right: 1rem;
 }
 
 .text-center{
@@ -956,8 +951,21 @@ nav ul{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.btn:hover{
+  opacity: 50%;
+}
+
 footer {
   background-color: var(--dark-blue);
+}
+
+.lime-hover {
+  fill: black;
+}
+
+.lime-hover:hover{
+  color: var(--lime-green);
+  cursor: pointer;
 }
 
 .attribution {
@@ -1089,8 +1097,8 @@ footer {
     text-align: left;
   }
 
-  .lg\:text-5xl{
-    font-size: 3rem;
+  .lg\:text-6xl{
+    font-size: 3.75rem;
     line-height: 1;
   }
 
@@ -1102,21 +1110,6 @@ footer {
   .lg\:text-2xl{
     font-size: 1.5rem;
     line-height: 2rem;
-  }
-
-  .lg\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .lg\:text-7xl{
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .lg\:text-6xl{
-    font-size: 3.75rem;
-    line-height: 1;
   }
 
   .lg\:text-slate-900{

@@ -60,6 +60,7 @@ nav ul {
 nav ul li button {
   @apply lg:text-slate-900 lg:opacity-75 lg:text-sm;
 }
+
 .btn {
   background-image: linear-gradient(
     90deg,
